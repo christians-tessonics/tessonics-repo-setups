@@ -1,0 +1,25 @@
+{
+    "cmake.useCMakePresets": "never",
+    "cmake.buildDirectory": "${workspaceFolder}/build-mingw",
+    "cmake.generator": "Ninja Multi-Config",
+    "cmake.environment": {
+        "PATH": "C:\\msys64\\mingw64\\bin;${env:PATH}"
+    },
+    "cmake.configureSettings": {
+        "CMAKE_C_COMPILER": "C:/msys64/mingw64/bin/gcc.exe",
+        "CMAKE_CXX_COMPILER": "C:/msys64/mingw64/bin/g++.exe",
+        "CMAKE_CONFIGURATION_TYPES": "Debug;Release"
+    },
+    "cmake.debugConfig": {
+        "MIMode": "gdb",
+        "miDebuggerPath": "C:/msys64/mingw64/bin/gdb.exe",
+        "args": ["help"],
+        "cwd": "${workspaceFolder}",
+        "environment": [
+            {
+                "name": "PATH",
+                "value": "C:\\msys64\\mingw64\\bin;$penv{PATH}"
+            }
+        ]
+    }
+}

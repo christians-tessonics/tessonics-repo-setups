@@ -1,0 +1,19 @@
+{
+	"configurations": [
+		{
+			"name": "Win32",
+			"configurationProvider": "ms-vscode.cmake-tools",
+			"compileCommands": "${workspaceFolder}/build-mingw/compile_commands.json",
+			"compilerPath": "C:/msys64/mingw64/bin/g++.exe",
+			"intelliSenseMode": "windows-gcc-x64",
+			"cppStandard": "gnu++23",
+			"includePath": [
+				"${workspaceFolder}/src/srs-auditor",
+				"${workspaceFolder}/src",
+				"${workspaceFolder}/ext/srs-apps-common",
+				"${workspaceFolder}/ext/json++"
+			]
+		}
+	],
+	"version": 4
+}
